@@ -1,4 +1,4 @@
-export const TUTOR_PASSWORD = "tutor2026";   // change this before deploying
+export const TUTOR_PASSWORD = "Xt15062007.";   // change this before deploying
 
 export const SECTION_TIMES = {
   "Reading and Writing": 32 * 60,  // 32 minutes in seconds
