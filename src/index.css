@@ -1,0 +1,33 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f3f4f6;
+  --white: #ffffff;
+  --blue: #1a56db;
+  --blue-light: #e8f0fd;
+  --blue-hover: #1648c2;
+  --green: #057a55;
+  --green-light: #def7ec;
+  --red: #c81e1e;
+  --red-light: #fde8e8;
+  --amber: #b45309;
+  --amber-light: #fef3c7;
+  --border: #e5e7eb;
+  --border-dark: #d1d5db;
+  --text: #111827;
+  --text-muted: #6b7280;
+  --text-light: #9ca3af;
+  --serif: 'Source Serif 4', Georgia, serif;
+  --sans: system-ui, -apple-system, sans-serif;
+  --radius: 4px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+html, body, #root { height: 100%; font-family: var(--sans); font-size: 16px; color: var(--text); background: var(--bg); line-height: 1.6; }
+button { cursor: pointer; font-family: var(--sans); }
+a { color: inherit; text-decoration: none; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: var(--border-dark); border-radius: 3px; }
+.passage-text { font-family: var(--serif); font-size: 17px; line-height: 1.8; color: var(--text); }
+.passage-text em, .passage-text i { font-style: italic; }
